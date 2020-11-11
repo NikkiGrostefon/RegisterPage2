@@ -4,19 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar">
+    <nav id="navbar">
         <a href="#" class="nav-link">About Us</a>
         <a href="#" class="nav-link">Login</a>
     </nav>
     <!--form-->
-    <div>
+    <div id= "form">
+        <h2>Register Here</h2>
+        <div id= "inputDiv">
+            <form method="POST">
+                <input placeholder="Email" type="email" />
+                <input placeholder="Username" type="text" />
+                <input placeholder="Password" type="password" />
+                <input placeholder="Confirm Password" type="password" />
+                    <button type="submit" value="Submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div id= "images">
+            <a href="https://www.amazon.com/" target="_blank">
+                <img class="social-image" src="assets/amazon.jpg" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="social-image" src="assets/fb-icon.jpg" />
+            </a>
+            <a href="https://www.github.com/" target="_blank">
+                <img class="social-image" src="assets/github-icon.png" />
+            </a>
+            <a href="https://slack.com/" target="_blank">
+                <img class="social-image" src="assets/slack-icon.png" />
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                <img class="social-image" src="assets/instagram-icon.png" />
+            </a>
 
+        </div>
     </div>
     
 </body>
